@@ -17,10 +17,7 @@ test('Client App login and purchase flow', async ({ page }) => {
     const products = page.locator(".card-body");
     const productCount = await products.count();
     expect(productCount).toBeGreaterThan(0);
-
-    //vasdks
-    //abcdeffghdslkfsldsk
-    //hello
+    
     //  Select and add the specific product to the cart
     const product = products.locator(`b:has-text("${productName}")`).first();
     await expect(product).toBeVisible();
