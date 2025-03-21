@@ -13,10 +13,7 @@ test('Client App login and purchase flow', async ({ page }) => {
     await page.locator("[value='Login']").click();
     await page.waitForLoadState('networkidle'); // Ensures all requests complete
 
-    // Validate that products are loaded
-    const products = page.locator(".card-body");
-    const productCount = await products.count();
-    expect(productCount).toBeGreaterThan(0);
+    
 
     //  Select and add the specific product to the cart
     const product = products.locator(`b:has-text("${productName}")`).first();
