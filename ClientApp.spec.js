@@ -75,4 +75,5 @@ test('Client App login and purchase flow', async ({ page }) => {
     //  Verify order details
     const orderIdDetails = await page.locator(".col-text").textContent();
     expect(orderId.includes(orderIdDetails.trim())).toBeTruthy();
+    
 });
