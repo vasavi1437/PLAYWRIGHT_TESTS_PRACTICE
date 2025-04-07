@@ -1,0 +1,42 @@
+SDLC(Software Development Life Cycle)
+
+Definition:
+
+    SDLC is a structured process followed by software development teams to design, develop, test, and deploy high-quality software efficiently and effectively.
+
+Phases of SDLC:
+
+1. Requirement Gathering & Analysis:
+
+    --> Meet with stakeholders to understand business needs.
+    --> Analyze requirements for feasibility and scope.
+    --> Output: Software Requirement Specification (SRS)
+
+2. Design
+
+    --> Architects/designers create a blueprint of the system.
+    --> Includes UI/UX design, database structure, system architecture.
+    --> Output: High-Level Design (HLD) and Low-Level Design (LLD)
+
+3. Implementation (Coding)
+
+    --> Developers write code based on the design documents.
+    --> Follows coding standards and practices
+    --> Output: Working software modules
+
+4. Testing
+
+    --> Testers verify the software for bugs, errors, and defects.
+    --> Includes Unit, Integration, System, and Acceptance testing.
+    --> Output: Test Reports and Bug Logs
+
+5. Deployment
+
+    --> Software is released to the live environment.
+    --> May be done in phases (pilot/beta/production).
+
+6. Maintenance
+
+    -->Post-deployment support, bug fixes, performance improvements.
+    -->Involves updates and enhancements.
+
