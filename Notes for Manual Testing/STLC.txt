@@ -1,0 +1,48 @@
+STLC – Software Testing Life Cycle
+
+Definition:
+
+    STLC is a sequence of specific activities conducted during the testing process to ensure software quality objectives are met. It starts as soon as the requirements are available and continues through test closure.
+
+Phases of STLC:
+
+1. Requirement Analysis
+
+    --> Understand and analyze testing requirements from the SRS or BRD.
+    --> Identify testable and non-testable parts.
+    --> Output: Requirement Traceability Matrix (RTM)
+
+2. Test Planning
+
+    --> Define scope, objective, strategy, and resource allocation.
+    --> Estimate effort and schedule testing timelines.
+    --> Output: Test Plan Document
+
+3.  Test Case Design / Test Design
+
+    --> Write detailed test cases and test scripts.
+    --> Prepare test data.
+    --> Output: Test Cases, Test Scenarios, and Test Data
+
+4.  Test Environment Setup
+
+    --> Set up hardware and software to execute tests.
+    --> Simulate production-like environment.
+    --> Output: Environment Ready for Testing
+
+5.  Test Execution
+
+    --> Execute the written test cases.
+    --> Compare expected vs actual results.
+    --> Output: Test Execution Report, Defect Log
+
+6.  Defect Reporting & Tracking:
+
+    --> Log bugs found during test execution.
+    --> Track, retest, and close fixed defects.
+
+7.  Test Closure:
+
+    --> Finalize testing after all test cases are executed and bugs are fixed.
+    --> Prepare test summary and lessons learned.
+    --> Output: Test Summary Report, Metrics
