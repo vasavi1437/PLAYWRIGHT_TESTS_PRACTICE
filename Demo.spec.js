@@ -23,6 +23,5 @@ test('Login Test - Valid Credentials', async ({ page }) => {
 
   await expect(page).toHaveURL(/.*logged-in-successfully/);
   await expect(page.locator('h1')).toHaveText('Logged In Successfully');
-  
 });
 
