@@ -1,0 +1,114 @@
+What is a Test Case?
+
+    Definition:
+
+    --> A test case is a set of steps, conditions, and expected results 
+        created to verify a specific functionality or feature of an application
+        under test. It helps ensure that the application behaves as expected.
+
+    Typical Structure of a Test Case:
+
+        Test Case ID          : Unique identifier (e.g., TC001)
+        Test Case Description :	What the test is verifying
+        Preconditions         :	Any setup needed before the test (e.g., user must be logged in)
+        Test Steps            : Step-by-step instructions to execute the test
+        Test Data             : Specific data used for testing
+        Expected Result       : What should happen if the app is working correctly
+        Actual Result         : What actually happened when test was executed
+        Status                : Pass/Fail
+        Remarks               : Additional notes, if any  
+
+
+What is a Test Scenario?
+
+    Definition:
+
+        A Test Scenario is a high-level description of a feature or functionality 
+        that needs to be tested. 
+        Test scenarios help in ensuring end-to-end testing of an application from the user’s perspective.
+
+    Structure of a Test Scenario:
+
+    Scenario ID	         : Unique identifier (e.g., TS001)
+    Scenario Description : High-level description of what is to be tested
+    Module/Feature	     : The module to which the scenario belongs
+    Preconditions        : Any conditions that need to be met before testing
+    Remarks              : Additional information
+
+    Example: Login Functionality
+
+        Scenario ID	    Scenario Description
+            TS001   	Verify that a user can log in with valid credentials
+            TS002	    Verify error message on entering an incorrect password
+            TS003	    Verify login fails when required fields are blank
+            TS004	    Verify the "Remember Me" feature retains login info
+            TS005	    Verify user is redirected to the correct homepage after login
+
+    Test Scenario vs Test Case:
+
+   
+    Test Scenario	                    Test Case
+
+    High-level idea	                    Detailed step-by-step process
+    Less time-consuming to create       More time-consuming and detailed
+    Can cover multiple test cases	    Focused on one specific condition
+    Example: Check login functionality	Example: Login with valid credentials
+
+Defect Life Cycle (Bug Life Cycle)
+
+    Definition:
+
+        The Defect Life Cycle refers to the journey of a defect from its identification
+        to its closure. It includes the various states a defect goes through during its 
+        lifetime in the software development and testing process.
+
+    Typical States in the Defect Life Cycle:
+
+        New: The defect is logged for the first time by the tester.
+
+        Assigned: The defect is assigned to a developer for analysis and fixing.
+
+        Open: The developer has started working on the defect.
+
+        Fixed: The developer has resolved the issue and marked it as fixed.
+
+        Retest: The tester retests the defect in the next build or release.
+
+        Verified: The tester confirms the fix is working properly.
+
+        Closed: The defect is successfully verified and closed.
+
+
+    Additional States (if needed):
+
+        Rejected: Developer doesn’t consider it a valid defect.
+        Deferred: Defect is valid but will be fixed in a future release.
+        Duplicate: Defect is already reported earlier.
+        Cannot Reproduce: Developer couldn’t replicate the issue based on provided steps.
+
+    Flow Overview:
+
+        New → Assigned → Open → Fixed → Retest → Verified → Closed
+                            ↳ Rejected / Deferred / Duplicate / Cannot Reproduce
+
+    Example Scenario:
+
+        Tester finds a login error → marks it as New
+
+        Test Lead assigns it to Dev → status becomes Assigned
+
+        Dev starts work → status becomes Open
+
+        Dev fixes bug → marks it Fixed
+
+        Tester retests → marks it Verified
+
+        All is good → defect is Closed
+
+    Why Defect Life Cycle Matters:
+    
+        Ensures clear communication between testers and developers
+
+        Helps in tracking and managing bugs efficiently
+
+        Supports better project planning and quality control
