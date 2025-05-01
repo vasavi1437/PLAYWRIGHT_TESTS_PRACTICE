@@ -48,3 +48,4 @@ test('Login Page - Invalid Password', async ({ page }) => {
   const flashMessage = page.locator('#flash');
   await expect(flashMessage).toContainText('Your password is invalid!');
 });
+
