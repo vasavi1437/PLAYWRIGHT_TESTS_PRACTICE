@@ -15,12 +15,7 @@ const {POManager} = require('../PageObjects/POManager');
 //Login page object from POManager
     await poManager.getLoginPage(email,password);
 
-// //search and add product to cart
-//     const dashboardPage = poManager.getDashboardPage();
-//     await dashboardPage.searchProductAddCart(productName);
-//     await dashboardPage.navigateToCart();
-    
-
+    wkekkd
 // //order review &submission
 
 //    const ordersReviewPage = poManager.getOrdersReviewPage();
