@@ -1,5 +1,5 @@
 
-const { test, expect } = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
 //Define Test Case
 test('Login Page - Successful login', async ({ page }) => {
