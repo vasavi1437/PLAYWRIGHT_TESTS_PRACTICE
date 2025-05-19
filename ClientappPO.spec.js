@@ -15,7 +15,7 @@ const {POManager} = require('../PageObjects/POManager');
 //Login page object from POManager
     await poManager.getLoginPage(email,password);
 
-    wkekkd
+  
 // //order review &submission
 
 //    const ordersReviewPage = poManager.getOrdersReviewPage();
